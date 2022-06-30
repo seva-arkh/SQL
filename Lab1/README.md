@@ -9,18 +9,28 @@ University (<br />
 Department (<br />
 DeptId: NUMERIC<br />
 DeptName: VARCHAR(40) )<br />
-Employee (
-EmpId: NUMERIC
-EmpName: VARCHAR(40)
-DeptId: NUMERIC REFERENCES Department(DeptId) HomeZipCode: NUMERIC
-) <br />Project (
-ProjId: NUMERIC
+
+Employee (<br />
+EmpId: NUMERIC<br />
+EmpName: VARCHAR(40)<br />
+DeptId: NUMERIC REFERENCES Department(DeptId)<br /> 
+HomeZipCode: NUMERIC
+) <br />
+
+Project (<br />
+ProjId: NUMERIC<br />
 ProjName: VARCHAR(40) )<br />
-Graduate (
-EmpId: NUMERIC REFERENCES Employee(EmpId) UnivId: NUMERIC REFERENCES University(UnivId) GradYear: NUMERIC
-) <br /> EmpProject (
-EmpId: NUMERIC REFERENCES Employee(EmpId)
+
+Graduate (<br />
+EmpId: NUMERIC REFERENCES Employee(EmpId)<br /> 
+UnivId: NUMERIC REFERENCES University(UnivId)<br /> 
+GradYear: NUMERIC
+) <br /> 
+
+EmpProject (<br />
+EmpId: NUMERIC REFERENCES Employee(EmpId)<br />
 ProjId: NUMERIC REFERENCES Project(ProjId) ) <br />
-ProjectManager (
+
+ProjectManager (<br />
 ProjId: NUMERIC REFERENCES Project(ProjId) MgrId: NUMERIC REFERENCES Employee(EmpId)
 )
