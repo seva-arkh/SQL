@@ -3,7 +3,7 @@
 Consider the following relation with its schema:<br />
 Student(sid, name, gpa)<br /> 
 Course(cid, name, department)<br /> 
-Registers(sid, cid, semester)__
+Registers(sid, cid, semester)
 
 Provide the Relational Algebra for each of the following query:
 1. Find the name of students who take a course with cid = CSci 4707 in Fall 2021.
