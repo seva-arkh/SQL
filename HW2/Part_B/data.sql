@@ -1,0 +1,34 @@
+INSERT INTO Student VALUES (1, '1', 1);
+INSERT INTO Student VALUES (2, '2', 4);
+INSERT INTO Student VALUES (3, '3', 5);
+INSERT INTO Student VALUES (4, '4', 2);
+INSERT INTO Student VALUES (5, '5', 2);
+
+
+INSERT INTO Course VALUES (4707, '4707', 'CSci');
+INSERT INTO Course VALUES (1, '4707', 'CSci');
+INSERT INTO Course VALUES (2, '4707', 'CSci');
+INSERT INTO Course VALUES (3, '4707', 'CSci');
+INSERT INTO Course VALUES (4, '4707', 'H');
+
+
+INSERT INTO Registers VALUES (4, 4707, '2021');
+INSERT INTO Registers VALUES (4, 2, '2021');
+INSERT INTO Registers VALUES (4, 3, '2021');
+INSERT INTO Registers VALUES (4, 4, '2021');
+INSERT INTO Registers VALUES (4, 1, '2021');
+
+
+
+
+INSERT INTO Registers VALUES (1, 4707, '2021');
+INSERT INTO Registers VALUES (1, 4707, '2020');
+INSERT INTO Registers VALUES (1, 1, '2021');
+INSERT INTO Registers VALUES (1, 1, '2020');
+INSERT INTO Registers VALUES (2, 3, '2021');
+INSERT INTO Registers VALUES (2, 4, '2021');
+INSERT INTO Registers VALUES (3, 4707, '2021');
+INSERT INTO Registers VALUES (3, 4707, '2020');
+INSERT INTO Registers VALUES (3, 4707, '2019');
+INSERT INTO Registers VALUES (3, 1, '2021');
+INSERT INTO Registers VALUES (5, 1, '2021');
