@@ -1,8 +1,8 @@
 ## HW2
 #A. Relational Algebra: 
-Consider the following relation with its schema:__
-Student(sid, name, gpa)__ 
-Course(cid, name, department)__ 
+Consider the following relation with its schema:<br />
+Student(sid, name, gpa)<br /> 
+Course(cid, name, department)<br /> 
 Registers(sid, cid, semester)__
 
 Provide the Relational Algebra for each of the following query:
