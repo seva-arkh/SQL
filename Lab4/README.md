@@ -1,7 +1,7 @@
 ## Lab4
-The datasets used for this lab has the following schema (keys are underlined):
-• student(sid, sname, sex, age, year, gpa)
-• dept(dname, numphds)
+The datasets used for this lab has the following schema (keys are underlined):<br />
+• student(sid, sname, sex, age, year, gpa)<br />
+• dept(dname, numphds)<br />
 • major(dname, sid)
 
 # PART 1: Effect of Using Indexes (50 Points)
