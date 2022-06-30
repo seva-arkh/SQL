@@ -1,5 +1,5 @@
 ## HW2
-#A. Relational Algebra 
+#A. Relational Algebra: 
 Consider the following relation with its schema:
 Student(sid, name, gpa) 
 Course(cid, name, department) 
