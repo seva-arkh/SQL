@@ -1,9 +1,9 @@
 ## Lab1
 PART 1: ProjectDB Schema Creation (20 Points)
 For the syntax of each command in psql, please consult the documentation of PostgreSQL here. ProjectDB consists of the following relations defined in the following schema:<br />
-University (
-UnivId: NUMERIC
-UnivName: VARCHAR(40) )<br />
+University (<br />
+  UnivId: NUMERIC<br />
+  UnivName: VARCHAR(40) )<br />
 Department (
 DeptId: NUMERIC
 DeptName: VARCHAR(40) )<br />
