@@ -1,9 +1,9 @@
 ## HW2
 #A. Relational Algebra: 
-Consider the following relation with its schema:
-Student(sid, name, gpa) 
-Course(cid, name, department) 
-Registers(sid, cid, semester)
+Consider the following relation with its schema:__
+Student(sid, name, gpa)__ 
+Course(cid, name, department)__ 
+Registers(sid, cid, semester)__
 
 Provide the Relational Algebra for each of the following query:
 1. Find the name of students who take a course with cid = CSci 4707 in Fall 2021.
